@@ -4,7 +4,8 @@
 
 Criação de API tendo como exemplo o site https://www.producthunt.com/
 
-- Tecnologias utilizadas:
+Tecnologias utilizadas:
+
 - NodeJS;
 - Express;
 - Nodemon;
