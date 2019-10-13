@@ -3,7 +3,7 @@ const mongoosePaginate = require('mongoose-paginate');
 
 const ProductSchema = new mongoose.Schema({
   title: {
-    title: String,
+    type: String,
     required: true,
   },
   description: {
@@ -14,7 +14,7 @@ const ProductSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  createat: {
+  createdAt: {
     type: Date,
     default: Date.now,
   },
@@ -22,4 +22,4 @@ const ProductSchema = new mongoose.Schema({
 
 ProductSchema.plugin(mongoosePaginate);
 
-mongoose.model("Product", ProductSchema); 
+mongoose.model('Product', ProductSchema); 

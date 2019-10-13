@@ -10,7 +10,8 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^0.0.1-security",
-    "mongoose-paginate": "^5.0.3"
+    "mongoose-paginate": "^5.0.3",
+    "require-dir": "^1.2.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.3"

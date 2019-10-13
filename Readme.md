@@ -46,6 +46,24 @@ Para testar e ver os schemas usar o software - Robo3T
 mongoose
 É um ORM de bancos não relacionais com mongodb. O ORM permite usar código Javascript para manipular o banco de dados. Transforma as tabelas do banco de dados em objetos Javascript
 
+Dentro do model vai ficar o Schema
+
+#### Schema
+
+Define quais são os campos que um produto pode ter e que tipo de valores estes campos vão salvar.
+
+Agora, o model 'Product' está registrado na aplicação.
+
+Esse modo será required em server.js
+
+    require('./src/models/Product');
+
+#### biblioteca require-dir
+
+    $ yarn add require-dir
+
+Esta lib faz o require de todos os arquivos automaticamente
+
 Tecnologias utilizadas:
 
 - NodeJS;

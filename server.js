@@ -9,7 +9,7 @@ app.use(cors());
 
 //iniciando o DB
 mongoose.connect('mongodb://localhost:27017/nodeapi', { useNewUrlParser: true });
-requireDir('./src/models/Product');
+requireDir("./src/models");
 
 const Product = mongoose.model('Product');
 
