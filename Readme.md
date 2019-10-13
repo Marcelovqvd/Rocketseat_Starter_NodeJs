@@ -41,6 +41,11 @@ Para testar e ver os schemas usar o software - Robo3T
 
     https://robomongo.org/download
 
+## conectando com o banco de dados
+
+mongoose
+É um ORM de bancos não relacionais com mongodb. O ORM permite usar código Javascript para manipular o banco de dados. Transforma as tabelas do banco de dados em objetos Javascript
+
 Tecnologias utilizadas:
 
 - NodeJS;
